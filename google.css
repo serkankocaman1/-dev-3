@@ -1,0 +1,148 @@
+*{
+    font-family: arial,sans-serif;
+    padding: 0;
+}
+body{
+    margin: 0;
+    height: 100vh;
+}
+.header{
+    display: block;
+    width: 100%;
+    height: 9%;
+    font-size: 13px;
+}
+.header .header-left{
+    height: 100%;
+    display: flex;
+    float: left;
+    align-items: center;
+    height: 100%;
+    margin-left: 15px;
+}
+.header .header-right{
+    height: 100%;
+    display: flex;
+    float: right;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+    margin-right: 15px;
+}
+.header a{
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header button{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 30px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: auto;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid transparent;
+    background-color: #4285f4;
+    color: #fff;
+    font-weight: 500;
+    font-weight: bold;
+    
+}
+.header button:hover{
+    border: 1px solid #f2f2f2; 
+}
+.content{
+    display: flex;
+    width: 100%;
+    height: 85%;
+}
+.content button{
+    height: 35px;
+    padding: 10px;
+    width: auto;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #5f6368;
+}
+.content span button:hover{
+    border: 1px solid #c9c9c9;
+    color: #000;
+}
+.content form input{
+    width: 580px;
+    height: 42px;
+    border-radius: 50px;
+    border: 1px solid #b9b9b9;
+    margin-top: 30px;
+}
+
+.content form input:hover{
+    box-shadow: 1px 1px 3px 2px #e7e7e7;
+}
+.content form input:focus{
+    outline: none;
+    
+}
+
+.content .content-search-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+    flex-wrap: wrap;
+    height: 76%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer{
+    display: block;
+    width: 100%;
+    height: 6%;
+    background-color: #f2f2f2;
+}
+
+.footer a{
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #5f6368;
+    font-size: 15px;
+}
+.footer a:hover{
+    color: #000;
+}
+.footer .footer-left{
+    display: flex;
+    float: left;
+    align-items: center;
+    height: 100%;
+    margin-left: 15px;
+}
+.footer .footer-right{
+    height: 100%;
+    display: flex;
+    float: right;
+    align-items: center;
+    margin-right: 15px;
+}
+a:hover{
+    text-decoration: underline;
+}
+.header > svg{
+    fill: #000;
+}
+.header .header-right #product svg:hover{
+    fill: #5f6368;
+}
